@@ -63,3 +63,6 @@ Esistono due possibilità:
 5. Confermare con INVIO.
 
  
+
+###### Licenza
+Si veda il file LICENSE.md
