@@ -63,6 +63,10 @@ Esistono due possibilità:
 5. Confermare con INVIO.
 
  
+ 
+ 
+ 
+ 
 
 ###### Licenza
-Si veda il file LICENSE.md
+Si veda il file [LICENSE.md](https://github.com/ncavallini/LaM/blob/main/LICENSE.md)
