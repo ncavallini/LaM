@@ -48,16 +48,18 @@ Esistono due possibilità:
 
 1. Scaricare Python dal [sito ufficiale](https://www.python.org/downloads/);
 
-2. Aprire una *shell*:
+2. Scegliere e scaricare un listato di codice dalla cartella `/python` 
 
-   a. <u>Windows</u>: **Prompt dei comandi** &ndash; Premere i tasti WINDOWS + R sulla tastiera e inserire `cmd` nella casella *Esegui*. Confermare con *OK*;
+3. Aprire, nella directory contenente il file scaricato, una *shell*:
 
-   b. <u>Mac OS</u>: **Terminale** &ndash; Aprire l'app *Terminale* dal Launchpad o dalla cartella `Applicazioni > Utility`.
+   * <u>Windows</u>: **Prompt dei comandi** &ndash; Premere i tasti WINDOWS + R sulla tastiera e inserire `cmd` nella casella *Esegui*. Confermare con *OK*;
 
-   c. <u>Linux</u>: **Terminale** &ndash; Aprire il programma *Terminale* con la combinazione di tasti SUPER + T (WINDOWS + T sui PC con 		tastiera Windows) .
+   * <u>Mac OS</u>: **Terminale** &ndash; Aprire l'app *Terminale* dal Launchpad o dalla cartella `Applicazioni > Utility`.
 
-3. Digitare `python nome_file.py` 
+   * <u>Linux</u>: **Terminale** &ndash; Aprire il programma *Terminale* con la combinazione di tasti SUPER + T (WINDOWS + T sui PC con 		tastiera Windows) .
 
-4. Confermare con INVIO.
+4. Digitare `python nome_file.py` 
+
+5. Confermare con INVIO.
 
  
