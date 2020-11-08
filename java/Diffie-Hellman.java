@@ -16,14 +16,14 @@ public class DH {
 		int k = 0;
 	    SecureRandom random = new SecureRandom();
 		
-		// Genero numero primo. Non è lungo quanto dovrebbe essere per non appesantire il programma. Questo è solo un test/esempio.
+		// Genero numero primo. Non Ã¨ lungo quanto dovrebbe essere per non appesantire il programma. Questo Ã¨ solo un test/esempio.
 		
 	    do {
 	    	N = random.nextInt(30)+ 1;
 	    } while(isPrime(N) == false || N==1 || N == 2);
 		
 
-	    System.out.println("Il numero N generato è N = " + N);
+	    System.out.println("Il numero N generato Ã¨ N = " + N);
 	    
 	    
 	    // "Genero" un generatore g
@@ -91,7 +91,7 @@ public class DH {
 	    
 	    g = arrayg[i];
 	    
-	    System.out.println("Il generatore g scelto è g = " + g);
+	    System.out.println("Il generatore g scelto Ã¨ g = " + g);
 	    
 	    // Scelgo 2 numeri a, b con a < N e b < N
 	    
@@ -118,10 +118,10 @@ public class DH {
 	    
 	    if(kA == kB  && kA == (int) Math.pow(g, a*b) % N) {
 	    	k = kA;
-	    	System.out.println("\n \n Il segreto k è k = " + k);
+	    	System.out.println("\n \n Il segreto k Ã¨ k = " + k);
 	    }
 	    else {
-    	System.out.println("SI È VERIFICATO UN ERRORE.");	
+    	System.out.println("SI Ãˆ VERIFICATO UN ERRORE.");	
     	}
 	    
 	}
