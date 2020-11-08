@@ -27,7 +27,7 @@ Esistono due possibilità:
 1. Scaricare e installare il Java SE SDK dal [sito ufficiale](https://www.oracle.com/java/technologies/javase-downloads.html);
 2. Scaricare e installare un IDE Java. Si consiglia l'utilizzo di [Eclipse](https://www.eclipse.org/downloads/);
 3. Scaricare un listato di codice dalla cartella `/java` sul proprio PC ed aprirlo con Eclipse;
-4. Avviare la compilazione con il tasto ![image-20201108160531380](C:\Users\Niccolò Cavallini\AppData\Roaming\Typora\typora-user-images\image-20201108160531380.png).
+4. Avviare la compilazione con il tasto ➡.
 
 
 
