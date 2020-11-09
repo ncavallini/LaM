@@ -38,7 +38,7 @@ Esistono due possibilità:
  <h4> A. Esecuzione online </h4>
 
 1. Visitare un IDE online Python, per esempio [questo](https://www.tutorialspoint.com/execute_python_online.php);
-2. Scegliere un listato dalla cartella `/python`;
+2. Scegliere un listato dalla cartella `/python3`;
 3. Copiare tutto il codice e sostituire interamente il contenuto già presente nella pagina dell'IDE online con il contenuto degli Appunti;
 4. Cliccare sul pulsante *Execute* e attendere la compilazione.
 
@@ -48,7 +48,7 @@ Esistono due possibilità:
 
 1. Scaricare Python dal [sito ufficiale](https://www.python.org/downloads/);
 
-2. Scegliere e scaricare un listato di codice dalla cartella `/python` 
+2. Scegliere e scaricare un listato di codice dalla cartella `/python3` 
 
 3. Aprire, nella directory contenente il file scaricato, una *shell*:
 
