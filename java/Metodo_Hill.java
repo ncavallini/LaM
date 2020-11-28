@@ -1,8 +1,8 @@
-package lam;
+//package lam; Uncomment this line and change the package name according to your settings. If you are executing this online, leave this line commented.
 
 import java.util.Scanner;
 
-public class Metodo_Hill {
+public class MyClass {
 
 	public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class Metodo_Hill {
 		int d = input.nextInt();
 		
 		if(a*d-b*c != 1 && a*d-b*c != -1) {
-			System.out.println("La matrice ha determinante diverso da +/- 1 e pertanto non è valida. PROGRAMMA TERMINATO");
+			System.out.println("La matrice ha determinante diverso da +/- 1 e pertanto non Ã¨ valida. PROGRAMMA TERMINATO");
 			System.exit(0);
 		}
 		cifrante[0][0]=a;
