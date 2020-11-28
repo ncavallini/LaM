@@ -29,6 +29,7 @@ Esistono due possibilità:
 1. Scaricare e installare il Java SE SDK dal [sito ufficiale](https://www.oracle.com/java/technologies/javase-downloads.html);
 2. Scaricare e installare un IDE Java. Si consiglia l'utilizzo di [Eclipse](https://www.eclipse.org/downloads/);
 3. Scaricare un listato di codice dalla cartella `/java` sul proprio PC ed aprirlo con Eclipse;
+4. Rinominare il file così che il nome sia ```Nome_Classe.java```. È importante che il nome del file sia **identico** al nome della classe.
 4. Avviare la compilazione con il tasto ➡.
 
 
