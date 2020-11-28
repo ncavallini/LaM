@@ -45,9 +45,9 @@ phi = (p-1)*(q-1)
 print("phi(n) = " + str(phi))
 
 #4 Scelta di e
-#e è compreso tra 3 e 2^16 -1, così da contenere il tempo di esecuzione.
+#e è compreso tra 3 e 2^16 + 1, così da contenere il tempo di esecuzione.
 while(math.gcd(e,phi)!=1):
-    e = random.randint(3,2**16-1)    
+    e = random.randint(3,2**16+1)    
 print("e = " + str(e))
 
 #5. Cifratura
