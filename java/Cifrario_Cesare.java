@@ -1,4 +1,4 @@
-package lam;
+//package lam; Uncomment this line and change the package name according to your settings. If you are executing this online, leave this line commented.
 
 import java.util.Scanner;
 
