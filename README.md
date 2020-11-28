@@ -12,13 +12,15 @@ Esistono due possibilità:
 
 #### A. Esecuzione online
 
-1. Visitare un IDE online Java, per esempio [questo](https://www.tutorialspoint.com/compile_java_online.php);
+1. Visitare un IDE online Java, per esempio [questo](https://www.jdoodle.com/online-java-compiler-ide/);
 
 2. Scegliere un listato dalla cartella `/java`;
 
 3. Copiare tutto il codice e sostituire interamente il contenuto già presente nella pagina dell'IDE online con il contenuto degli Appunti;
 
-4. Cliccare sul pulsante *Execute* e attendere la compilazione.
+4. Attivare l'interruttore *Interactive*
+
+5. Cliccare sul pulsante *Execute* e attendere la compilazione.
 
    
 
