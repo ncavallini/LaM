@@ -2,7 +2,7 @@ package lam;
 
 import java.util.Scanner;
 
-public class Cifrario_Cesare {
+public class MyClass {
 
 	public static void main(String[] args) {
 		
@@ -20,14 +20,14 @@ k = input.nextInt();
 
 }
 catch(Exception e)  {
-	System.out.println("La chiave inserita non è un numero intero. Riprovare. PROGRAMMA TERMINATO.");
+	System.out.println("La chiave inserita non Ã¨ un numero intero. Riprovare. PROGRAMMA TERMINATO.");
 	System.exit(-1);
 }
 
 finally {}
 
 if( k < 0 || k> 26) {
-	System.out.println("La chiave è minore di 0 o maggiore di 26. Riprovare. PROGRAMMA TERMINATO.");
+	System.out.println("La chiave Ã¨ minore di 0 o maggiore di 26. Riprovare. PROGRAMMA TERMINATO.");
 	System.exit(-1);
 }
 else {
