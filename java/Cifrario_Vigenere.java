@@ -1,13 +1,13 @@
-package lam;
+//package lam; Uncomment this line and change the package name according to your settings. If you are executing this online, leave this line commented.
 
 import java.util.Scanner;
 
-public class Cifrario_Vigenere {
+public class MyClass {
 
 	public static void main(String[] args) {
 		
 		
-	//Cifrario di VigenËre secondo l'alfabeto inglese di 26 lettere.
+	//Cifrario di Vigen√®re secondo l'alfabeto inglese di 26 lettere.
 		
 		String chiave = "";
 		String plaintext = "";
@@ -15,15 +15,15 @@ public class Cifrario_Vigenere {
 		
 
 		
-		System.out.println("CIFRARIO DI VIGEN»RE SECONDO L'ALFABETO INGLESE");
+		System.out.println("CIFRARIO DI VIGEN√àRE SECONDO L'ALFABETO INGLESE");
 		System.out.println("\n");
 		System.out.println("Inserire il testo da cifrare.");
 		
-		plaintext = input.next().toUpperCase(); // Uso le maiuscole per semplicit‡
+		plaintext = input.next().toUpperCase(); // Uso le maiuscole per semplicit√†
 		
 		System.out.println("Inserire una chiave");
 		
-		chiave = input.next().toUpperCase(); // Uso le maiuscole per semplicit‡
+		chiave = input.next().toUpperCase(); // Uso le maiuscole per semplicit√†
 		
 		if(chiave.length() < plaintext.length()) {
 			int differenza = plaintext.length() - chiave.length();
@@ -33,7 +33,7 @@ public class Cifrario_Vigenere {
 				chiave += chiave.charAt(i);
 			}
 			
-			System.out.println("Siccome la lunghezza della chiave Ë minore di quella del testo in chiaro, la chiave viene iterata per ottenere: " + chiave);
+			System.out.println("Siccome la lunghezza della chiave √® minore di quella del testo in chiaro, la chiave viene iterata per ottenere: " + chiave);
 			
 		}
 
@@ -58,7 +58,7 @@ public class Cifrario_Vigenere {
 		
 		for(int i=0; i<plaintext.length();i++) {
 	
-			cifrato_array[i] = (plain_array[i] + chiave_array[i]) % 26 + 65; // Lavoro mod 26 (alfabeto inglese) e aggiungo 65 perchÈ il codice ASCII della "A" maiuscola Ë 65.
+			cifrato_array[i] = (plain_array[i] + chiave_array[i]) % 26 + 65; // Lavoro mod 26 (alfabeto inglese) e aggiungo 65 perch√© il codice ASCII della "A" maiuscola √® 65.
 		
 			cifrato += (char) cifrato_array[i];
 		}
