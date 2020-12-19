@@ -72,5 +72,6 @@ def cifratura():
 cifratura()
 
 print("\n\n Il messaggio cifrato è: ")
-print("Messaggio cifrato: " + str(C))
+print(C)
+
 
