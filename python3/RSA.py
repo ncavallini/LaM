@@ -33,7 +33,7 @@ genNum()
 while(isPrime(candidates[0]) == False or isPrime(candidates[1]) == False or candidates[0] == candidates[1]):
     candidates = []
     genNum()
-print(candidates)
+print("I numeri p, q sono: " + str(candidates))
 
 #2. Calcolo di n = pq
 p = candidates[0]
@@ -45,10 +45,11 @@ phi = (p-1)*(q-1)
 print("phi(n) = " + str(phi))
 
 #4 Scelta di e
-#e è compreso tra 3 e 2^16 + 1, così da contenere il tempo di esecuzione.
+#e è compreso tra 3 e 2^16 -1, così da contenere il tempo di esecuzione.
 while(math.gcd(e,phi)!=1):
-    e = random.randint(3,2**16+1)    
+    e = random.randint(3,2**16-1)    
 print("e = " + str(e))
+
 
 #5. Cifratura
 m = input("\nInserire il messaggio in chiaro da cifrare.\n")
@@ -71,5 +72,5 @@ def cifratura():
 cifratura()
 
 print("\n\n Il messaggio cifrato è: ")
-print(C)
+print("Messaggio cifrato: " + str(C))
 
