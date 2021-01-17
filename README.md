@@ -2,6 +2,9 @@
 
 Questo repository contiene i codici dei programmi creati per illustrare i crittosistemi esposti nel Lavoro di Maturità *Crittografia: dagli albori al XXI secolo* di Niccolò Cavallini.
 
+## Lettura del Lavoro di Maturità
+[Clicca qui](https://ncavallini.altervista.org/lam) per leggere il Lavoro di Maturità
+
 ## Esecuzione del codice
 
 I codici presentati nel lavoro di ricerca sono in parte dei codici Java e in parte dei codici Python 3.
