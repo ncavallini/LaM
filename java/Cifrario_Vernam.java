@@ -4,50 +4,50 @@ import java.util.Scanner;
 
 public class MyClass {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		System.out.print("Questo programma cifra un messaggio con il cifrario di Vernam data una chiave. \n \n");
+        System.out.print("Questo programma cifra un messaggio con il cifrario di Vernam data una chiave. \n \n");
 
-		Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-		System.out.println("Inserire la parola da cifrare.");
+        System.out.println("Inserire la parola da cifrare.");
 
-		String messaggio = input.next().toUpperCase(); // Uso solo le maiuscole per semplicit�.
+        String messaggio = input.next().toUpperCase(); // Uso solo le maiuscole per semplicita'.
 
-		System.out.println("Inserire la chiave.");
+        System.out.println("Inserire la chiave.");
 
-		String chiave = input.next();
+        String chiave = input.next();
 
-		if (chiave.length() < messaggio.length()) {
-			System.out.println("Chiave non valida. La lunghezza della chiave � minore di quella del messaggio.");
-			System.exit(0);
-		} else {
-			chiave = chiave.toUpperCase(); // Uso solo le maiuscole per semplicit�.
-		}
-		input.close();
+        if (chiave.length() < messaggio.length()) {
+            System.out.println("Chiave non valida. La lunghezza della chiave e' minore di quella del messaggio.");
+            System.exit(0);
+        } else {
+            chiave = chiave.toUpperCase(); // Uso solo le maiuscole per semplicita'.
+        }
+        input.close();
 
-		int[] intmessaggio = new int[messaggio.length()];
-		int[] intchiave = new int[chiave.length()];
+        int[] intmessaggio = new int[messaggio.length()];
+        int[] intchiave = new int[chiave.length()];
 
-		for (int i = 0; i < messaggio.length(); i++) {
-			intmessaggio[i] = (int) messaggio.charAt(i) - 64;
-		}
+        for (int i = 0; i < messaggio.length(); i++) {
+            intmessaggio[i] = (int) messaggio.charAt(i) - 64;
+        }
 
-		for (int i = 0; i < chiave.length(); i++) {
-			intchiave[i] = (int) chiave.charAt(i) - 64;
-		}
+        for (int i = 0; i < chiave.length(); i++) {
+            intchiave[i] = (int) chiave.charAt(i) - 64;
+        }
 
-		int[] intcifrato = new int[messaggio.length()];
+        int[] intcifrato = new int[messaggio.length()];
 
-		String cifrato = "";
+        String cifrato = "";
 
-		for (int i = 0; i < messaggio.length(); i++) {
-			intcifrato[i] = ((intmessaggio[i] + intchiave[i]) % 26) + 63;
-			cifrato += (char) intcifrato[i];
-		}
+        for (int i = 0; i < messaggio.length(); i++) {
+            intcifrato[i] = ((intmessaggio[i] + intchiave[i]) % 26) + 63;
+            cifrato += (char) intcifrato[i];
+        }
 
-		System.out.println("MESSAGGIO CIFRATO: " + cifrato);
+        System.out.println("MESSAGGIO CIFRATO: " + cifrato);
 
-	}
+    }
 
 }
