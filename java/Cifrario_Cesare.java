@@ -10,7 +10,7 @@ public class MyClass {
 	
 	String plaintext = "";
 	String criptato = "";
-	int k =0; // chiave
+	int k = 0; // chiave
 	System.out.println("Inserire una chiave [numero intero fra 1 e 26]");
 	
 try {
@@ -26,7 +26,7 @@ catch(Exception e)  {
 
 finally {}
 
-if( k < 0 || k> 26) {
+if( k < 0 || k > 26) {
 	System.out.println("La chiave è minore di 0 o maggiore di 26. Riprovare. PROGRAMMA TERMINATO.");
 	System.exit(-1);
 }
@@ -38,11 +38,11 @@ else {
 	int [] plainarray = new int[plaintext.length()];
 	int [] arraycriptato = new int [plaintext.length()];
 	
-for(int i =0; i < plaintext.length(); i++)	{
+for(int i = 0; i < plaintext.length(); i++)	{
 	plainarray[i] = (int) plaintext.charAt(i);
 }
 		
-	for(int i=0 ; i < plaintext.length(); i++){
+	for(int i = 0 ; i < plaintext.length(); i++){
 		
 		arraycriptato[i] = (plainarray[i] + k);   
 		if(arraycriptato[i] > 90) {
