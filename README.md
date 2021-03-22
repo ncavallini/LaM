@@ -3,7 +3,7 @@
 Questo repository contiene i codici dei programmi creati per illustrare i crittosistemi esposti nel Lavoro di Maturità *Crittografia: dagli albori al XXI secolo* di Niccolò Cavallini.
 
 ## Lettura del Lavoro di Maturità
-[Clicca qui](https://ncavallini.altervista.org/lam) per leggere il Lavoro di Maturità
+[Clicca qui](https://github.com/ncavallini/LaM/raw/6676c64c7340a1273e8a42b9eccbbfc678c109ac/LAM_DEFINITIVO.pdf) per leggere il Lavoro di Maturità
 
 ## Esecuzione del codice
 
